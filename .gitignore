@@ -1,8 +1,8 @@
-# OS X
+# === OS X ===
 
 .DS_Store
 
-# Xcode
+# === Xcode ===
 
 build/
 *.pbxuser
@@ -18,6 +18,6 @@ profile
 *.moved-aside
 DerivedData
 
-# AppCode
+# === AppCode ===
 
 .idea/
