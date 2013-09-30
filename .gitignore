@@ -18,6 +18,9 @@ profile
 *.moved-aside
 DerivedData
 
+# VCS file introduced in Xcode 5
+*.xccheckout
+
 # === AppCode ===
 
 .idea/
