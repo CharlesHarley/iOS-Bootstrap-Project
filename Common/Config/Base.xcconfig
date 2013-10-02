@@ -26,3 +26,7 @@ CLANG_ENABLE_OBJC_ARC = YES
 
 GCC_PREPROCESSOR_DEFINITIONS[config=Debug] = DEBUG=1
 GCC_PREPROCESSOR_DEFINITIONS[config=Release] =
+
+// Strip debug symbols during copy
+COPY_PHASE_STRIP[config=Debug] = NO
+COPY_PHASE_STRIP[config=Release] = YES
