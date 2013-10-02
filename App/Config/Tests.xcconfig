@@ -1,0 +1,9 @@
+//
+// Build configuration options for the app tests.
+//
+
+#include "App.xcconfig"
+
+OTHER_LDFLAGS = $(BASE_OTHER_LDFLAGS) -framework XCTest
+
+WRAPPER_EXTENSION = xctest

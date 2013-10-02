@@ -1,0 +1,12 @@
+//
+// Build configuration options for the app.
+//
+
+#include "../../Common/Config/Base.xcconfig"
+
+PRODUCT_NAME = Sheldon
+PROJECT_NAME = $(PRODUCT_NAME)
+
+INFOPLIST_FILE = Config/AppInfo.plist
+
+WRAPPER_EXTENSION = app

@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <FileRef
+      location = "group:App/App.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:Common"
+      name = "Common">
+      <Group
+         location = "group:Config"
+         name = "Config">
+         <FileRef
+            location = "group:Base.xcconfig">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Source"
+         name = "Source">
+         <FileRef
+            location = "group:PrefixHeader.pch">
+         </FileRef>
+      </Group>
+   </Group>
 </Workspace>
