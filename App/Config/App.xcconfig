@@ -4,10 +4,10 @@
 
 #include "../../Common/Config/Base.xcconfig"
 
-PRODUCT_NAME = Sheldon
+PRODUCT_NAME = Bootstrap
 PROJECT_NAME = $(PRODUCT_NAME)
 
-BUNDLE_IDENTIFIER = com.charlesharley.sheldon
+BUNDLE_IDENTIFIER = com.charlesharley.bootstrap.ios
 BUNDLE_VERSION = 1.0
 BUNDLE_BUILD_NUMBER = 1
 

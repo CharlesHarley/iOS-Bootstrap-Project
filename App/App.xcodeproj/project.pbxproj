@@ -26,7 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5699D07A17FCA85000265CD4 /* Sheldon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sheldon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5699D07A17FCA85000265CD4 /* Bootstrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootstrap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5699D08517FCA85000265CD4 /* AppInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppInfo.plist; sourceTree = "<group>"; };
 		5699D08717FCA85000265CD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppInfoPlist.strings; sourceTree = "<group>"; };
 		5699D08917FCA85000265CD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		5699D09517FCA85000265CD4 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		5699D09617FCA85000265CD4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		5699D09817FCA85000265CD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5699D09E17FCA85000265CD4 /* Sheldon.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sheldon.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5699D09E17FCA85000265CD4 /* Bootstrap.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bootstrap.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5699D0AB17FCA85000265CD4 /* FirstTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTests.m; sourceTree = "<group>"; };
 		5699D0B617FCA8CD00265CD4 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
 		5699D0B917FCADD500265CD4 /* Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Tests.xcconfig; sourceTree = "<group>"; };
@@ -73,8 +73,8 @@
 		5699D07B17FCA85000265CD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5699D07A17FCA85000265CD4 /* Sheldon.app */,
-				5699D09E17FCA85000265CD4 /* Sheldon.xctest */,
+				5699D07A17FCA85000265CD4 /* Bootstrap.app */,
+				5699D09E17FCA85000265CD4 /* Bootstrap.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 			);
 			name = App;
 			productName = App;
-			productReference = 5699D07A17FCA85000265CD4 /* Sheldon.app */;
+			productReference = 5699D07A17FCA85000265CD4 /* Bootstrap.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5699D09D17FCA85000265CD4 /* Tests */ = {
@@ -161,7 +161,7 @@
 			);
 			name = Tests;
 			productName = AppTests;
-			productReference = 5699D09E17FCA85000265CD4 /* Sheldon.xctest */;
+			productReference = 5699D09E17FCA85000265CD4 /* Bootstrap.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
