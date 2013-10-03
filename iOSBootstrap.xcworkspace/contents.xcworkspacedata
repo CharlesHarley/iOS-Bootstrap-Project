@@ -18,6 +18,9 @@
          location = "group:Source"
          name = "Source">
          <FileRef
+            location = "group:Logging.h">
+         </FileRef>
+         <FileRef
             location = "group:PrefixHeader.pch">
          </FileRef>
       </Group>

@@ -22,15 +22,16 @@
  */
 
 /**
- * Prefix header
- *
- * The contents of this file are implicitly included at the beginning of every source file.
+ * Logging macros that wrap NSLog() in 2 forms:
+ * 
+ * - DLog() which will only log if DEBUG is defined
+ * - ALog() which will always log regardless
  */
 
-#ifdef __OBJC__
-
-#import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
-#import "Logging.h"
-
+#ifdef DEBUG
+#	define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#	define DLog(...)
 #endif
+
+#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
