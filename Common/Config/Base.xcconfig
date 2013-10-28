@@ -2,14 +2,20 @@
 // Build configuration options appropriate for all projects.
 //
 
+// ========== Platform ==========
+
 SDKROOT = iphoneos
 IPHONEOS_DEPLOYMENT_TARGET = 7.0
 
 // 1 == iPhone, 2 == iPad
 TARGETED_DEVICE_FAMILY = 1,2
 
+// ========== Search Paths ==========
+
 BASE_FRAMEWORK_SEARCH_PATHS = $(SDKROOT)/Developer/Library/Frameworks $(DEVELOPER_FRAMEWORKS_DIR)
 FRAMEWORK_SEARCH_PATHS = $(BASE_FRAMEWORK_SEARCH_PATHS)
+
+// ========== Compilation ==========
 
 BASE_OTHER_LDFLAGS = -framework Foundation -framework UIKit
 OTHER_LDFLAGS = $(BASE_OTHER_LDFLAGS)
