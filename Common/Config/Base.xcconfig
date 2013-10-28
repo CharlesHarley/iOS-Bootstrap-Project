@@ -12,7 +12,7 @@ TARGETED_DEVICE_FAMILY = 1,2
 
 // ========== Search Paths ==========
 
-BASE_FRAMEWORK_SEARCH_PATHS = $(SDKROOT)/Developer/Library/Frameworks $(DEVELOPER_FRAMEWORKS_DIR)
+BASE_FRAMEWORK_SEARCH_PATHS = $(SDKROOT)/Developer/Library/Frameworks
 FRAMEWORK_SEARCH_PATHS = $(BASE_FRAMEWORK_SEARCH_PATHS)
 
 // ========== Compilation ==========
