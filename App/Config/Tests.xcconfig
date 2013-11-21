@@ -2,7 +2,7 @@
 // Build configuration options for the app tests.
 //
 
-#include "App.xcconfig"
+#include "App_Debug.xcconfig"
 
 OTHER_LDFLAGS = $(BASE_OTHER_LDFLAGS) -framework XCTest
 
