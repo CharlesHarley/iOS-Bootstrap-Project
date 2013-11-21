@@ -21,31 +21,18 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#import "AppDelegate.h"
-#import "FirstViewController.h"
+#import <XCTest/XCTest.h>
 
-@implementation AppDelegate
+@interface GcovTestObserver : XCTestObserver
 
-#ifdef TEST
-+ (void)initialize {
-    [[NSUserDefaults standardUserDefaults] setValue:@"XCTestLog,GcovTestObserver"
-                                             forKey:@"XCTestObserverClass"];
-}
-#endif
+@end
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [[FirstViewController alloc] init];
-    [self.window makeKeyAndVisible];
+@implementation GcovTestObserver
 
-    return YES;
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-#ifdef TEST
-    extern void __gcov_flush(void);
-    __gcov_flush();
-#endif
+- (void)stopObserving {
+    [super stopObserving];
+    UIApplication *application = [UIApplication sharedApplication];
+    [application.delegate applicationWillTerminate:application];
 }
 
 @end
