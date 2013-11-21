@@ -22,15 +22,18 @@
  */
 
 #import <XCTest/XCTest.h>
+#import "FirstViewController.h"
 
-@interface FirstTests : XCTestCase
+@interface FirstViewControllerTests : XCTestCase
 
 @end
 
-@implementation FirstTests
+@implementation FirstViewControllerTests
 
-- (void)testExample {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+- (void)testCreateNewInstance {
+    FirstViewController *firstViewController = [[FirstViewController alloc] init];
+
+    XCTAssertNotNil(firstViewController);
 }
 
 @end

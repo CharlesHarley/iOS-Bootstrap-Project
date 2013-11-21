@@ -12,7 +12,7 @@
 		5699D08E17FCA85000265CD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5699D08D17FCA85000265CD4 /* AppDelegate.m */; };
 		5699D09717FCA85000265CD4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5699D09617FCA85000265CD4 /* FirstViewController.m */; };
 		5699D09917FCA85000265CD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5699D09817FCA85000265CD4 /* Images.xcassets */; };
-		5699D0AC17FCA85000265CD4 /* FirstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5699D0AB17FCA85000265CD4 /* FirstTests.m */; };
+		5699D0AC17FCA85000265CD4 /* FirstViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5699D0AB17FCA85000265CD4 /* FirstViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 		5699D09617FCA85000265CD4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		5699D09817FCA85000265CD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5699D09E17FCA85000265CD4 /* Bootstrap.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bootstrap.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5699D0AB17FCA85000265CD4 /* FirstTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTests.m; sourceTree = "<group>"; };
+		5699D0AB17FCA85000265CD4 /* FirstViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewControllerTests.m; sourceTree = "<group>"; };
 		5699D0B617FCA8CD00265CD4 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
 		5699D0B917FCADD500265CD4 /* Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Tests.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +92,7 @@
 		5699D0B817FCABC700265CD4 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5699D0AB17FCA85000265CD4 /* FirstTests.m */,
+				5699D0AB17FCA85000265CD4 /* FirstViewControllerTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					5699D09D17FCA85000265CD4 = {
-						TestTargetID = 5699D07917FCA85000265CD4;
+						TestTargetID = 5699D07917FCA85000265CD4 /* App */;
 					};
 				};
 			};
@@ -231,7 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5699D0AC17FCA85000265CD4 /* FirstTests.m in Sources */,
+				5699D0AC17FCA85000265CD4 /* FirstViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +337,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5699D0B917FCADD500265CD4 /* Tests.xcconfig */;
 			buildSettings = {
-				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
 		};
@@ -345,7 +344,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5699D0B917FCADD500265CD4 /* Tests.xcconfig */;
 			buildSettings = {
-				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
 		};
