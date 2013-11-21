@@ -26,7 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5699D07A17FCA85000265CD4 /* Bootstrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Bootstrap.app; path = "/Users/charles/Dev/Personal/iOS_Bootstrap_Project/App/build/Debug-iphoneos/Bootstrap.app"; sourceTree = "<absolute>"; };
+		5699D07A17FCA85000265CD4 /* Bootstrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootstrap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5699D08517FCA85000265CD4 /* AppInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppInfo.plist; sourceTree = "<group>"; };
 		5699D08717FCA85000265CD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppInfoPlist.strings; sourceTree = "<group>"; };
 		5699D08917FCA85000265CD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		5699D09517FCA85000265CD4 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		5699D09617FCA85000265CD4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		5699D09817FCA85000265CD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5699D09E17FCA85000265CD4 /* Bootstrap.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Bootstrap.xctest; path = "/Users/charles/Dev/Personal/iOS_Bootstrap_Project/App/build/Debug-iphoneos/Bootstrap.xctest"; sourceTree = "<absolute>"; };
+		5699D09E17FCA85000265CD4 /* Bootstrap.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bootstrap.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5699D0AB17FCA85000265CD4 /* FirstViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewControllerTests.m; sourceTree = "<group>"; };
 		5699D0B617FCA8CD00265CD4 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
 		5699D0B917FCADD500265CD4 /* Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Tests.xcconfig; sourceTree = "<group>"; };
@@ -63,10 +63,20 @@
 			isa = PBXGroup;
 			children = (
 				5699D0B517FCA89A00265CD4 /* Config */,
+				5699D07B17FCA85000265CD4 /* Products */,
 				5699D0BB17FCD89600265CD4 /* Resources */,
 				5699D0BA17FCAF5F00265CD4 /* Source */,
 				5699D0B817FCABC700265CD4 /* Tests */,
 			);
+			sourceTree = "<group>";
+		};
+		5699D07B17FCA85000265CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5699D07A17FCA85000265CD4 /* Bootstrap.app */,
+				5699D09E17FCA85000265CD4 /* Bootstrap.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5699D0B517FCA89A00265CD4 /* Config */ = {
@@ -164,7 +174,7 @@
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					5699D09D17FCA85000265CD4 = {
-						TestTargetID = 5699D07917FCA85000265CD4;
+						TestTargetID = 5699D07917FCA85000265CD4 /* App */;
 					};
 				};
 			};
@@ -177,7 +187,7 @@
 				Base,
 			);
 			mainGroup = 5699D07117FCA85000265CD4;
-			productRefGroup = 5699D07117FCA85000265CD4;
+			productRefGroup = 5699D07B17FCA85000265CD4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
