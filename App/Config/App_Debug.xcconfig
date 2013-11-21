@@ -1,0 +1,8 @@
+//
+// Debug build configuration options for the app.
+//
+
+#include "../../Common/Config/Base_Debug.xcconfig"
+
+// Included last as it will overwrite any configuration declared by the common config files.
+#include "App.xcconfig"

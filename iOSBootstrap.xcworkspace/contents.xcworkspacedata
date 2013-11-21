@@ -13,6 +13,9 @@
          <FileRef
             location = "group:Base.xcconfig">
          </FileRef>
+         <FileRef
+            location = "group:Base_Debug.xcconfig">
+         </FileRef>
       </Group>
       <Group
          location = "group:Source"

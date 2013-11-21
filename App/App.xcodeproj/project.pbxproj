@@ -26,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5632D78B183EB96700EC1E5F /* App_Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App_Debug.xcconfig; sourceTree = "<group>"; };
+		5632D78C183EBA0400EC1E5F /* App_Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App_Release.xcconfig; sourceTree = "<group>"; };
 		5699D07A17FCA85000265CD4 /* Bootstrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootstrap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5699D08517FCA85000265CD4 /* AppInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppInfo.plist; sourceTree = "<group>"; };
 		5699D08717FCA85000265CD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppInfoPlist.strings; sourceTree = "<group>"; };
@@ -83,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				5699D0B617FCA8CD00265CD4 /* App.xcconfig */,
+				5632D78B183EB96700EC1E5F /* App_Debug.xcconfig */,
+				5632D78C183EBA0400EC1E5F /* App_Release.xcconfig */,
 				5699D08517FCA85000265CD4 /* AppInfo.plist */,
 				5699D0B917FCADD500265CD4 /* Tests.xcconfig */,
 			);
@@ -174,7 +178,7 @@
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					5699D09D17FCA85000265CD4 = {
-						TestTargetID = 5699D07917FCA85000265CD4 /* App */;
+						TestTargetID = 5699D07917FCA85000265CD4;
 					};
 				};
 			};
@@ -260,7 +264,7 @@
 /* Begin XCBuildConfiguration section */
 		5699D0AD17FCA85000265CD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5699D0B617FCA8CD00265CD4 /* App.xcconfig */;
+			baseConfigurationReference = 5632D78B183EB96700EC1E5F /* App_Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -290,7 +294,7 @@
 		};
 		5699D0AE17FCA85000265CD4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5699D0B617FCA8CD00265CD4 /* App.xcconfig */;
+			baseConfigurationReference = 5632D78C183EBA0400EC1E5F /* App_Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";

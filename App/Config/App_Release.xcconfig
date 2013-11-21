@@ -1,0 +1,8 @@
+//
+// Release build configuration options for the app.
+//
+
+#include "../../Common/Config/Base.xcconfig"
+
+// Included last as it will overwrite any configuration declared by the common config files.
+#include "App.xcconfig"

@@ -2,8 +2,6 @@
 // Build configuration options for the app.
 //
 
-#include "../../Common/Config/Base.xcconfig"
-
 PRODUCT_NAME = Bootstrap
 PROJECT_NAME = $(PRODUCT_NAME)
 
