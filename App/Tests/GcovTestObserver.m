@@ -23,6 +23,10 @@
 
 #import <XCTest/XCTest.h>
 
+/**
+ Test observer to ensure the application is terminated when the tests have completed.
+ This ensures the code coverage data is generated.
+ */
 @interface GcovTestObserver : XCTestObserver
 
 @end
